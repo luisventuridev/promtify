@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@source "../index.html";
+@source "./**/*.{js,ts,jsx,tsx}";
+
+/* Esto añade las variables de color de shadcn que faltan en v4 por defecto */
+@theme {
+  --color-border: var(--slate-200);
+  --color-input: var(--slate-200);
+  --color-ring: var(--slate-400);
+  --color-background: white;
+  --color-foreground: var(--slate-950);
+  --color-primary: var(--slate-900);
+  --color-primary-foreground: var(--slate-50);
+}
