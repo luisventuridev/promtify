@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { STYLE_LIBRARY, type SubStyle } from './lib/prompt-data';
-import { Copy, Check, Sparkles, Terminal, Layout, Info } from "lucide-react";
+import { Copy, Check, Sparkles, Terminal, Layout } from "lucide-react";
 
 const App = () => {
   // --- ESTADOS ---
