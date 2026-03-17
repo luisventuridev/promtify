@@ -75,7 +75,7 @@ const App = () => {
           <header style={{ borderBottom: '2px solid #F0F0F0', paddingBottom: '16px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#000' }}>
               <Terminal size={20} />
-              <h1 style={{ fontSize: '24px', fontWeight: '900', margin: 0 }}>PROMPTIFY <span style={{ color: '#666' }}>V2</span></h1>
+              <h1 style={{ fontSize: '24px', fontWeight: '900', margin: 0 }}>IMAGIF <span style={{ color: '#666' }}>AI</span></h1>
             </div>
             <p style={{ color: '#666', fontSize: '14px', marginTop: '4px' }}>Advanced prompt engineering for creative professionals.</p>
           </header>
